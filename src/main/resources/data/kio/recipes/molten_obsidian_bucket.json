@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "kio:obsidian_bucket"
+  },
+  "result": "kio:molten_obsidian_bucket",
+  "experience": 0.1,
+  "cookingtime": 500
+}

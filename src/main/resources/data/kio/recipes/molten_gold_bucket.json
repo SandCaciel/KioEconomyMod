@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "kio:gold_ingot_bucket"
+  },
+  "result": "kio:molten_gold_bucket",
+  "experience": 0.1,
+  "cookingtime": 500
+}

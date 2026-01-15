@@ -1,0 +1,11 @@
+{
+  "type": "kio:coin_casting",
+  "ingredients": [
+    {
+      "item": "kio:molten_obsidian_bucket"
+    }
+  ],
+  "output": {
+    "item": "kio:obsidian_coin_blank"
+  }
+}

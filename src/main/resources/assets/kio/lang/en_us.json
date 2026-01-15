@@ -1,4 +1,47 @@
 {
-  "item.kio.coin": "Kio",
-  "item.kio.coin_blank": "Blank Kio"
+  "itemgroup.kio": "Kio Economy",
+
+  "item.kio.gold_coin": "Golden Kio",
+  "item.kio.gold_coin_blank": "Golden Kio Blank",
+  "item.kio.copper_coin": "Copper Kio",
+  "item.kio.copper_coin_blank": "Copper Kio Blank",
+  "item.kio.obsidian_coin": "Obsidian Kio",
+  "item.kio.obsidian_coin_blank": "Obsidian Kio Blank",
+  "item.kio.emerald_coin": "Emerald Kio",
+  "item.kio.emerald_coin_blank": "Emerald Kio Blank",
+  "item.kio.ruby_coin": "Ruby Kio",
+  "item.kio.ruby_coin_blank": "Ruby Kio Blank",
+  "item.kio.leather_coin": "Leather Kio",
+  "item.kio.leather_coin_blank": "Leather Kio Blank",
+  "item.kio.paper_coin": "Paper Kio",
+  "item.kio.paper_coin_blank": "Paper Kio Blank",
+
+  "item.kio.gold_coin_fake": "Golden Kio",
+  "item.kio.copper_coin_fake": "Copper Kio",
+  "item.kio.obsidian_coin_fake": "Obsidian Kio",
+  "item.kio.emerald_coin_fake": "Emerald Kio",
+  "item.kio.ruby_coin_fake": "Ruby Kio",
+  "item.kio.leather_coin_fake": "Leather Kio",
+  "item.kio.paper_coin_fake": "Paper Kio",
+
+  "item.kio.leather_ingot": "Leather Ingot",
+  "item.kio.paper_ingot": "Paper Ingot",
+  "item.kio.admin_minting_template": "Admin Minting Template",
+  "item.kio.minting_template": "Minting Template",
+
+  "item.kio.gold_ingot_bucket": "Bucket of Gold",
+  "item.kio.molten_gold_bucket": "Bucket of Molten Gold",
+  "item.kio.molten_copper_bucket": "Bucket of Molten Copper",
+  "item.kio.copper_ingot_bucket": "Bucket of Copper",
+  "item.kio.molten_obsidian_bucket": "Bucket of Molten Obsidian",
+  "item.kio.obsidian_bucket": "Bucket of Obsidian",
+  "item.kio.molten_emerald_bucket": "Bucket of Molten Emerald",
+  "item.kio.emerald_bucket": "Bucket of Emerald",
+  "item.kio.molten_leather_bucket": "Bucket of Molten Leather",
+  "item.kio.leather_ingot_bucket": "Bucket of Leather",
+  "item.kio.molten_paper_bucket": "Bucket of Molten Paper",
+  "item.kio.paper_ingot_bucket": "Bucket of Paper",
+
+  "block.kio.silica_sand": "Silica Sand",
+  "block.kio.coin_casting_station": "Coin Casting Station"
 }

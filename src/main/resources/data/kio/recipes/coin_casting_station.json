@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "###",
+    "i i"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_terracotta"
+    },
+    "S": {
+      "item": "kio:silica_sand"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "kio:coin_casting_station",
+    "count": 1
+  }
+}

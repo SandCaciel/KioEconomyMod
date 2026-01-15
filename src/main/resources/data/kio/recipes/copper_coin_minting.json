@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "kio:minting_template"
+  },
+  "base": {
+    "item": "kio:copper_coin_blank"
+  },
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": {
+    "item": "kio:copper_coin_fake"
+  }
+}

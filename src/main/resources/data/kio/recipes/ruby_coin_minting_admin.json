@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "kio:admin_minting_template"
+  },
+  "base": {
+    "item": "kio:ruby_coin_blank"
+  },
+  "addition": {
+    "item": "minecraft:ruby"
+  },
+  "result": {
+    "item": "kio:ruby_coin"
+  }
+}

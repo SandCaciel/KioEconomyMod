@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kio:block/coin_casting_station"
+    },
+    "facing=south": {
+      "model": "kio:block/coin_casting_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kio:block/coin_casting_station",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "kio:block/coin_casting_station",
+      "y": 90
+    }
+  }
+}

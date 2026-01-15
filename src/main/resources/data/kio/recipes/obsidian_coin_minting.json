@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "kio:minting_template"
+  },
+  "base": {
+    "item": "kio:obsidian_coin_blank"
+  },
+  "addition": {
+    "item": "minecraft:obsidian"
+  },
+  "result": {
+    "item": "kio:obsidian_coin_fake"
+  }
+}

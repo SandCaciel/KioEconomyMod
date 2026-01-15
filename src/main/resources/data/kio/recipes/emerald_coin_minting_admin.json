@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "kio:admin_minting_template"
+  },
+  "base": {
+    "item": "kio:emerald_coin_blank"
+  },
+  "addition": {
+    "item": "minecraft:emerald"
+  },
+  "result": {
+    "item": "kio:emerald_coin"
+  }
+}

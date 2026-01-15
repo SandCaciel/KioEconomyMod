@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "kio:leather_ingot_bucket"
+  },
+  "result": "kio:molten_leather_bucket",
+  "experience": 0.1,
+  "cookingtime": 500
+}

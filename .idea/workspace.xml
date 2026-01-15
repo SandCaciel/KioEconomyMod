@@ -4,25 +4,288 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2de2a6ab-c94e-4d41-b2b6-db54f26fdc72" name="Changes" comment="" />
+    <list default="true" id="2de2a6ab-c94e-4d41-b2b6-db54f26fdc72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/java/net/caciel/kio/KioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/java/net/caciel/kio/KioDataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/java/net/caciel/kio/block/entity/client/CoinCastingStationBlockEntityRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/java/net/caciel/kio/networking/ModMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/java/net/caciel/kio/networking/packet/ItemStackSyncS2CPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/java/net/caciel/kio/screen/CoinCastingScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/resources/kio.client.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/Kio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/block/ModBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/block/custom/CoinCastingStationBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/block/entity/CoinCastingBlockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/block/entity/ImplementedInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/block/entity/ModBlockEntities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/item/ModItemGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/networking/ModPackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/recipe/CoinCastingRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/recipe/ModRecipes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/screen/CoinCastingScreenHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/screen/ModScreenHandlers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/blockstates/coin_casting_station.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/blockstates/silica_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/block/coin_casting_station.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/block/silica_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/admin_minting_template.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/coin_casting_station.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/copper_coin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/copper_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/copper_coin_fake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/copper_ingot_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/emerald_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/emerald_coin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/emerald_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/emerald_coin_fake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/gold_coin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/gold_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/gold_coin_fake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/gold_ingot_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/leather_coin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/leather_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/leather_coin_fake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/leather_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/leather_ingot_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/minting_template.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/molten_copper_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/molten_emerald_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/molten_gold_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/molten_leather_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/molten_obsidian_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/molten_paper_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/obsidian_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/obsidian_coin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/obsidian_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/obsidian_coin_fake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/paper_coin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/paper_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/paper_coin_fake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/paper_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/paper_ingot_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/ruby_coin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/ruby_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/ruby_coin_fake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/silica_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/block/silica_sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/gui/coin_casting_station.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/amethyst_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/brass_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/copper_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/copper_ingot_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/daimond_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/emerald_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/emerald_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/gold_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/gold_ingot_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/iron_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/iron_ingot_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/lapis_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/leather_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/leather_ingot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/leather_ingot_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/molten_copper_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/molten_emerald_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/molten_gold_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/molten_leather_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/molten_obsidian_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/molten_paper_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/netherite_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/obsidian_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/obsidian_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/opal_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/paper_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/paper_ingot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/paper_ingot_bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/quartz_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/ruby_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/stone_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/zinc_coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/loot_tables/blocks/coin_casting_station.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/loot_tables/blocks/silica_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/coin_casting_station.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/copper_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/copper_coin_minting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/copper_coin_minting_admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/copper_ingot_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/emerald_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/emerald_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/emerald_coin_minting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/emerald_coin_minting_admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/gold_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/gold_coin_minting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/gold_coin_minting_admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/gold_ingot_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/leather_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/leather_coin_minting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/leather_coin_minting_admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/leather_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/leather_ingot_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/minting_template.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/molten_copper_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/molten_emerald_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/molten_gold_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/molten_leather_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/molten_obsidian_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/molten_paper_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/obsidian_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/obsidian_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/obsidian_coin_minting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/obsidian_coin_minting_admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/paper_coin_blank.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/paper_coin_minting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/paper_coin_minting_admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/paper_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/paper_ingot_bucket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/ruby_coin_minting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/ruby_coin_minting_admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kio/recipes/silica_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/slimeyfellow/kio/KioEconomyMod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/slimeyfellow/kio/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/caciel/kio/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/kio/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/kio/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/kio/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/coin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/kio/models/item/coin_blank.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/kio/textures/item/coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/kio.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/kio.mixins.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KioEconomyMod" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KioEconomyMod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="37UQCCJobOFzTNp5HhPycmwheiU" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build KioEconomyMod.executor": "Run",
+    "Gradle.KioEconomyMod [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
+    "Gradle.KioEconomyMod [genSources].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "V:/Programs/MCMods/Fabric/KioEconomyMod/run/mods",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.30689654",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "streamdeck.action.browser"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\Programs\MCMods\Fabric\KioEconomyMod\run\mods" />
+      <recent name="V:\Programs\MCMods\Fabric\KioEconomyMod\src\main\resources" />
+      <recent name="V:\Programs\MCMods\Fabric\KioEconomyMod\src\main\resources\assets\kio" />
+      <recent name="V:\Programs\MCMods\Fabric\KioEconomyMod\src\main\resources\assets" />
+      <recent name="V:\Programs\MCMods\Fabric\KioEconomyMod\src\main\java\net\caciel\kio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="V:\Programs\MCMods\Fabric\KioEconomyMod\src\main\resources\assets\kio" />
+      <recent name="V:\Programs\MCMods\Fabric\KioEconomyMod\src\main\resources\assets\lang" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="net.caciel.kio.block.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Minecraft Client">
+    <configuration name="KioEconomyMod [genSources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="genSources" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.KioEconomyMod [genSources]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2de2a6ab-c94e-4d41-b2b6-db54f26fdc72" name="Changes" comment="" />
@@ -32,5 +295,10 @@
       <updated>1766955041639</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:net.fabricmc:fabric-loader" />
   </component>
 </project>

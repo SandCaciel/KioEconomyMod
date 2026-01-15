@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "kio:minting_template"
+  },
+  "base": {
+    "item": "kio:paper_coin_blank"
+  },
+  "addition": {
+    "item": "minecraft:paper_ingot"
+  },
+  "result": {
+    "item": "kio:paper_coin_fake"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "kio:coin_casting",
+  "ingredients": [
+    {
+      "item": "kio:molten_copper_bucket"
+    }
+  ],
+  "output": {
+    "item": "kio:copper_coin_blank"
+  }
+}
