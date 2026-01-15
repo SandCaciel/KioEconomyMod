@@ -3,15 +3,15 @@
 	"id": "kio",
 	"version": "${version}",
 	"name": "kio",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds coins to the game!",
 	"authors": [
-		"Me!"
+		"Caciel"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"modrinth": "https://fabricmc.net/",
+		"sources": "https://github.com/SandCaciel/KioEconomyMod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/kio/icon.png",
 	"environment": "*",
 	"entrypoints": {
